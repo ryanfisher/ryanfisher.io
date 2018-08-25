@@ -6,7 +6,56 @@
     <meta content="Ryan Fisher is a software engineer based in San Diego, Ca. He spends most of his time sitting quietly, writing code, and soaking in compliments about his beard." name="description">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <style type="text/css">
-    body{font-family:monospace;font-size:14px;line-height:1.5;text-align:center}.container{max-width:780px;margin:0 auto;text-align:left}h1{font-size:30px;font-weight:100}
+      body {
+        font-family: serif;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #333;
+      }
+
+      .container {
+        max-width: 780px;
+        margin: 0 auto;
+        text-align: left
+      }
+
+      h1 {
+        font-size: 2.5em;
+        clear: left;
+      }
+
+      h2 {
+        font-size: 2em;
+      }
+
+      h1, h2 {
+        font-family: sans-serif;
+        margin-bottom: 5px;
+      }
+
+      .introduction,
+      section ul {
+        font-size: 1.4em;
+        margin-top: 0;
+      }
+
+      section ul {
+        padding: 0;
+      }
+
+      nav {
+        float: right;
+      }
+
+      nav ul {
+        list-style: none;
+      }
+
+      li {
+        display: inline-block;
+        margin-left: 20px;
+      }
     </style>
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/einstein.jpg">
     <script async="" src="https://www.google-analytics.com/analytics.js"></script>
@@ -22,37 +71,32 @@
   </head>
   <body>
     <div class="container">
+      <nav>
+        <ul>
+          <li><a href="https://github.com/ryanfisher">github</a></li>
+          <li><a href="https://twitter.com/ryan_fisher">twitter</a></li>
+        </ul>
+      </nav>
       <h1>Ryan Fisher</h1>
-      <h3>Profiles</h3>
-      <ul>
-        <li>github: <a class="github" href="https://github.com/ryanfisher">@ryanfisher</a>
-        </li>
-        <li>twitter: <a class="twitter" href="https://twitter.com/ryan_fisher">@ryan_fisher</a></li>
-        <li>photography: <a href="https://photos.ryanfisher.io/profile/ryanfisher">@ryanfisher</a></li>
-      </ul>
-      <h3>Projects</h3>
-      <ul>
-        <li>
-          <a href="https://pantryio.com/">PantryIO</a> - A food tracking and recipe app built with Phoenix/Elixir
-        </li>
-        <li>
-          <a href="https://photos.ryanfisher.io">Ruby on Rails Photo App</a> | <a href="https://github.com/ryanfisher/photo">code</a>
-        </li>
-        <li>
-          <a href="https://github.com/ryanfisher/baseball_stats">Baseball Stats</a> - A ruby gem for comparing baseball statistics and projections
-        </li>
-      </ul>
-      <h3>Work</h3>
-      <ul>
-        <li>Senior Full Stack Engineer at <a href="https://www.stickermule.com">Sticker Mule</a> May 2018 - Present</li>
-        <li>Senior Software Engineer at <a href="https://www.gazelle.com" target="_blank">EcoAtm/Gazelle</a> May 2017 - May 2018
-        </li>
-        <li>Senior Software Engineer at <a href="https://www.doctible.com" target="_blank">Doctible</a> March 2015 - April 2017
-        </li>
-        <li>Senior Software Developer at <a href="https://www.furlocity.com" target="_blank">Furlocity</a> September 2014 - March 2015
-        </li>
-        <li>Software Engineer at <a href="https://www.nulu.com" target="_blank">Nulu</a> April 2012 - September 2014 </li>
-      </ul>
+      <p class="introduction">Hi, I'm Ryan. I'm a software engineer based in San Diego. I <a href="#experience">work</a> for Sticker Mule as part of a fully remote software team. Most of my programming time is spent in React and Ruby, but I like to <a href="#projects">build</a> stuff with Elixir and Elm when I can.</p>
+      <section id="projects">
+        <a name="projects" />
+        <h2>Projects</h2>
+        <ul>
+          <li>PantryIO - A food tracking and recipe app built with Phoenix/Elixir</li>
+        </ul>
+      </section>
+      <section id="experience">
+        <a name="experience" />
+        <h2>Work</h2>
+        <ul>
+          <li>Senior Full Stack Engineer at <a href="https://www.stickermule.com">Sticker Mule</a> May 2018 - Present</li>
+          <li>Senior Software Engineer at <a href="https://www.gazelle.com">EcoAtm/Gazelle</a> May 2017 - May 2018</li>
+          <li>Senior Software Engineer at <a href="https://www.doctible.com">Doctible</a> March 2015 - April 2017</li>
+          <li>Senior Software Developer at Furlocity September 2014 - March 2015</li>
+          <li>Software Engineer at <a href="https://www.nulu.com">Nulu</a> April 2012 - September 2014</li>
+        </ul>
+      </section>
     </div>
   </body>
 </html>
