@@ -29,6 +29,15 @@
         font-size: 2em;
       }
 
+      h3 {
+        font-size: 1.5em;
+        margin-bottom: 0;
+      }
+
+      h3 + p {
+        margin-top: 0;
+      }
+
       h1, h2 {
         font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
         margin-bottom: 5px;
@@ -40,8 +49,8 @@
         margin-top: 0;
       }
 
-      section ul {
-        padding: 0;
+      p {
+        font-size: 1.4em;
       }
 
       nav {
@@ -52,7 +61,7 @@
         list-style: none;
       }
 
-      li {
+      nav li {
         display: inline-block;
         margin-left: 20px;
       }
@@ -81,14 +90,15 @@
       <h1>Ryan Fisher</h1>
       <p class="introduction">Hi, I'm Ryan. I'm a software engineer based in San Diego. I <a href="#experience">work</a> for Sticker Mule as part of a fully remote software team. Most of my programming time is spent in React and Ruby, but I like to <a href="#projects">build</a> stuff with Elixir and Elm when I can.</p>
       <section id="projects">
-        <a name="projects" />
+        <a name="projects"></a>
         <h2>Projects</h2>
-        <ul>
-          <li><a href="https://pantryio.com">PantryIO</a> - A food tracking and recipe app built with Phoenix/Elixir</li>
+
+        <h3><a href="https://pantryio.com">PantryIO</a></h3>
+        <p>A food tracking and recipe app built with Phoenix/Elixir</p>
         </ul>
       </section>
       <section id="experience">
-        <a name="experience" />
+        <a name="experience"></a>
         <h2>Work</h2>
         <ul>
           <li>Senior Full Stack Engineer at <a href="https://www.stickermule.com">Sticker Mule</a> May 2018 - Present</li>
