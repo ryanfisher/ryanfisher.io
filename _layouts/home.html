@@ -1,9 +1,9 @@
 <html>
   <head>
     <title>
-      Ryan Fisher - Software Engineer, Hobbyist Photographer, Couch Philosopher
+      {{ site.title }} - Software Engineer, Hobbyist Photographer, Couch Philosopher
     </title>
-    <meta content="Ryan Fisher is a software engineer based in San Diego, Ca. He spends most of his time sitting quietly, writing code, and soaking in compliments about his beard." name="description">
+    <meta content="{{ site.description }}" name="description">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     {% include style.html %}
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/einstein.jpg">
@@ -26,7 +26,6 @@
 
         <h3><a href="https://pantryio.com">PantryIO</a></h3>
         <p>A food tracking and recipe app built with Phoenix/Elixir</p>
-        </ul>
       </section>
       <section id="experience">
         <a name="experience"></a>
