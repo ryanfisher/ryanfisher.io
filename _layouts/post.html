@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>
+      {{ page.title }} - {{ site.title }}
+    </title>
+    <meta content="{{ site.description }}" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    {% include style.html %}
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/einstein.jpg">
+    {% include analytics.html %}
+  </head>
+  <body>
+    <div class="container">
+      {{ content }}
+    </div>
+  </body>
+</html>
