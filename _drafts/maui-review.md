@@ -30,7 +30,7 @@ After a wild drive and some great food, we got to our [Airbnb](https://www.airbn
 ### Day two - Back Road from Hana
 After enjoying our Hana Farms banana bread, we headed to Hasegawa General Store. It looked like the place had everything. We just needed water and coffee.
 
-Pipiwai Trail in Haleakala National Park was one of our main destinations on our Road to Hana itinerary. It did not disappoint. Much of the length of the trail is bamboo forest. Walking through the towering bamboo as wind gently rustled the leaves and knocked the culms into each other, sounding like a forest sized wind chime, was a surreal experience. The trail ends at the mesmerizing Waimoku Falls which we enjoyed for a while before returning back through the bamboo.
+[Pipiwai Trail](https://pipiwaitrail.com) in Haleakala National Park was one of our main destinations on our Road to Hana itinerary. It did not disappoint. Much of the length of the trail is bamboo forest. Walking through the towering bamboo as wind gently rustled the leaves and knocked the culms into each other, sounding like a forest sized wind chime, was a surreal experience. The trail ends at the mesmerizing Waimoku Falls which we enjoyed for a while before returning back through the bamboo.
 
 Once back at the trailhead, we had a decision to make. Most people return from Hana the same way they came. However, there's an alternative route along the southern coast of Maui - the back road to Hana. It's a different experience - isolated and far drier than the jungle on the main road. We spoke to a ranger at the trailhead who warned us of an 8 mile section of the road that is either unpaved or riddled with potholes. It still sounded like the better choice and it was one of the best decisions we made. The road wasn't nearly as bad as some made it sound and the lighter traffic made the single lane sections far easier to navigate than on the more crowded main road.
 
@@ -45,6 +45,7 @@ Just before getting to Hotel Wailea, we made a stop in Kihei at [Ululani's Hawai
 - Monkeypod for dinner.
 
 ### Day three - Haleakala Crater and Old Lahaina Luau
+- [Haleakala National Park](https://www.nps.gov/hale/index.htm)
 - Haleakala summit
 - Sliding Sands trail
 - Incredible views on the drive
