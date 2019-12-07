@@ -12,7 +12,17 @@ category: book-notes
 - O'Brien - Inner party member
 - Julia - An outer party member and Winston's eventual love interest
 
-## Other notable entities
+## Other characters
+- Charrington - thought police posing as a shop owning prole to entrap Winston and Julia
+- Emmanuel Goldstein - the head of "The Brotherhood" possibly created by the Party for propaganda purposes
+
+## Some notables
+- Ministry of Truth - Place of work for Winston where he was tasked with rewriting history
+- Ministry of Love - Primarily concerned with war. Winston is interrogated and tortured here after being taken in by the thought police.
+- Room 101 - The final torture room where prisoners will face their worst fear.
+- The Brotherhood - A secret organization opposing the Party. Much like it's leader Goldstein, it may be a fabrication of the Party.
+
+## Takeaways
 
 ## Quotes
 
