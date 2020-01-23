@@ -15,7 +15,7 @@ Zucchini
 Butternut Squash
 Tomato - cherry and a slicing variety
 Edamame
-Peppers - Bell, Jalapeno, Serrano, Poblano/Ancho
+Peppers - Bell, Jalapeno, Serrano, Poblano/Ancho, Shishito
 
 Herbs: ~$15
 Chives
