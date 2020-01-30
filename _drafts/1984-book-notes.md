@@ -3,6 +3,7 @@ layout: post
 title: 1984 - Book notes
 permalink: /1984-book-notes
 category: book-notes
+date_read: November 2019
 ---
 
 # 1984 Book Notes
@@ -21,8 +22,6 @@ category: book-notes
 - Ministry of Love - Primarily concerned with war. Winston is interrogated and tortured here after being taken in by the thought police.
 - Room 101 - The final torture room where prisoners will face their worst fear.
 - The Brotherhood - A secret organization opposing the Party. Much like it's leader Goldstein, it may be a fabrication of the Party.
-
-## Takeaways
 
 ## Quotes
 
