@@ -22,3 +22,4 @@ Chives
 Basil
 Cilantro
 Spearmint
+Rosemary
