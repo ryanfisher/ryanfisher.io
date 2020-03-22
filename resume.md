@@ -14,6 +14,11 @@ Developed new services and maintained legacy Ruby on Rails/React ecommerce site 
 ##### Responsibilities
 - Wrote out technical plans for projects and new features.
 - Developed services written in Ruby and React using Flow for type checking javascript.
+- Reviewed code daily and occasionally mentored junior developers.
+
+##### Select Accomplishments
+- Led planning and development on our first digital only product, requiring significant changes to order flows in our system.
+- Wrote Go code to assist in integration of Google Vision api for categorizing users' artworks.
 
 
 ### Senior Software Engineer (May, 2017 - May, 2018)
