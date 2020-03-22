@@ -7,11 +7,17 @@ ryancfisher@gmail.com
 Experience
 ----------
 ###Senior Full Stack Engineer (May, 2018 - March, 2020)
-####Sticker Mule, Remote Only
+####Sticker Mule, Remote
+
+Developed new services and maintained legacy Ruby on Rails/React ecommerce site where customers could buy custom stickers and related products.
+
+#####Responsibilities
+- Wrote out technical plans for projects and new features.
+- Developed services written in Ruby and React using Flow for type checking javascript.
 
 
 ###Senior Software Engineer (May, 2017 - May, 2018)
-####EcoAtM/Gazelle, San Diego, CA
+####EcoAtm/Gazelle, San Diego, CA
 
 Developed Ruby on Rails and React/Redux application that allows users to sell their old mobile devices.
 
@@ -30,7 +36,7 @@ Developed Ruby on Rails and React/Redux application that allows users to sell th
 
 Developed Ruby on Rails and Backbone.js application that helps cash paying patients find quality healthcare providers with transparent service pricing. Doctible also provides marketing and patient engagement tools that integrate with provider management systems and use Twilio to automate communication.
 
-######Responsibilities:
+######Responsibilities
 - Worked directly with CTO to plan product development
 - Attended product meetings with founding team to provide technical guidance.
 - Developed job server with Sidekiq and Redis to offload asynchronous computationally complex tasks.
@@ -38,7 +44,7 @@ Developed Ruby on Rails and Backbone.js application that helps cash paying patie
 - Wrote doctor/patient messaging system with a frontend in React/Redux/ES6.
 - Provided detailed code reviews and mentored interns.
 
-######Select Accomplishments:
+######Select Accomplishments
 - Convinced team to move to a pull request workflow including thorough code review.
 - Spearheaded automated testing effort including setting up Teaspoon test runner, Jasmine testing framework, and Istanbul for checking test coverage.
 - Fixed legacy RSpec tests so team had a working build and could focus on writing specs with any new features.
@@ -69,10 +75,6 @@ Developed Ruby on Rails web application that uses interesting articles with fres
 - Was solely responsible for transforming PSDs from designers into CSS.
 - Used Bootstrap css and custom media queries to ensure that nulu.com functioned well and looked aesthetically pleasing on mobile devices.
 - Practice TDD using Guard and Rspec.
-- Had a lot of fun learning from a very talented software team with amazing backgrounds.
-
-######Select Accomplishments
-- Soaked in the compliments from other EvoNexus startup incubator companies admiring our mobile web application.
 
 ###Web Developer (February, 2011 - June, 2012)
 ####Aviatech, San Diego, CA
@@ -93,18 +95,6 @@ Personal Projects
 - Developed a web crawler otp app to search for recipe structured data.
 - Developed a shared shopping list with Elm and Phoenix channels.
 
-####Diction (December, 2016 - present)
-[github.com/ryanfisher/diction](https://github.com/ryanfisher/diction)
-
-- A vocabulary tutor application written with Elixir/Phoenix and React/Redux.
-
-####Photo App (August, 2014 - September, 2016)
-[photos.ryanfisher.io](https://photos.ryanfisher.io) | [github.com/ryanfisher/photo](https://github.com/ryanfisher/photo)
-
-- A web application for backing up and sharing photos, started as an attempt to satisfy my own needs as a hobbyist photographer.
-- Redeveloped using Ruby on Rails, Javascript, Backbone.js, Minimagick, Nginx, Phusion Passenger, Google Cloud Storage
-- Originally built using Python 3, Django, Pillow, Backbone.js, PostgreSQL, CSS 3, LESS, HTML 5, uWSGI, Nginx
-
 ####Baseball Stats (February, 2015 - May, 2015)
 [github.com/ryanfisher/baseball_stats](https://github.com/ryanfisher/baseball_stats)  
 
@@ -115,15 +105,15 @@ Technical Skills
 
 ####Very Proficient (4+ years)
 
-Ruby, Rails, RSpec, React, Redux, ES6, JavaScript, Backbone.js, Underscore.js, jQuery, CoffeeScript, Jasmine, CSS3, Slim, Sass, jekyll, Git, Github, AWS (EC2, S3, etc), Bitbucket, Pivotal Tracker, Sublime Text, Database Design, Linux
+Ruby, Rails, RSpec, React, Redux, ES6, JavaScript, CSS3, Sass, jekyll, Git, Github, AWS (EC2, S3, etc), Database Design, Linux
 
 ####Knowledgable and Currently Using Frequently
 
-Elixir, Phoenix, Elm, PostgreSQL, AWS Lambda, Step Functions, RDS
+Elixir, Phoenix, Elm, PostgreSQL
 
 ####Knowledgable
 
-Google Analytics, Mixpanel, CircleCI, SemaphoreCI, Gitlab, MySQL, DataMapper, Nginx, Google Cloud Storage, Capistrano, Sidekiq, Redis, Delayed Job, Phusion Passenger, Puma, Unicorn, Digital Ocean
+Google Analytics, Mixpanel, CircleCI, Gitlab, MySQL, DataMapper, Nginx, Google Cloud Storage, Sidekiq, Redis, Delayed Job, Digital Ocean
 
 ####Other Interests
 
@@ -132,7 +122,7 @@ Functional Programming (generally), Haskell
 
 Education
 ---------
-*Computer Science, Mar 2011.*  
+*Computer Science Coursework, Mar 2011.*  
 UCSD - Jacobs School of Engineering  
 Relevant coursework: Algorithm Design and Analysis, Operating Systems, Advanced Data Structures, Computability Theory, Programming Languages, Artificial Intelligence, Discrete Mathematics
 
