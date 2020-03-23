@@ -13,13 +13,13 @@ Developed new services and maintained legacy Ruby on Rails/React ecommerce site 
 
 ##### Responsibilities
 - Wrote out technical plans for projects and new features.
-- Developed services written in Ruby and React using Flow for type checking javascript.
+- Developed services written in Ruby and React using Flow for type checking JavaScript.
 - Reviewed code daily and occasionally mentored junior developers.
 
 ##### Select Accomplishments
-- Led planning and development on our first digital only product, requiring significant changes to order flows in our system.
-- Wrote Go code to assist in integration of Google Vision api for categorizing users' artworks.
-
+- Led technical planning and development on our first digital only product, requiring significant changes to order flows in our system.
+- Wrote Go code to integrate Google Vision api features used to categorize users' artworks.
+- Refactored significant portions of React codebase to eliminate side effects, using type checking, and moving to functional stateless components when possible.
 
 ### Senior Software Engineer (May, 2017 - May, 2018)
 #### EcoAtm/Gazelle, San Diego, CA
@@ -51,7 +51,7 @@ Developed Ruby on Rails and Backbone.js application that helps cash paying patie
 
 ###### Select Accomplishments
 - Convinced team to move to a pull request workflow including thorough code review.
-- Spearheaded automated testing effort including setting up Teaspoon test runner, Jasmine testing framework, and Istanbul for checking test coverage.
+- Spearheaded automated testing effort for our JavaScript codebase.
 - Fixed legacy RSpec tests so team had a working build and could focus on writing specs with any new features.
 - Rewrote our doctor search page from a barely tested AngularJS app to a fully tested Backbone.js app.
 - Implemented a simple api server using Elixir and Phoenix web framework.
@@ -87,7 +87,7 @@ Developed Ruby on Rails web application that uses interesting articles with fres
 Developed web sites for numerous clients using proprietary cms.
 
 ###### Responsibilities
-- Wrote custom javascript solutions for unique client requests.
+- Wrote custom JavaScript solutions for unique client requests.
 - Developed python scripts to automate reporting of clients' social media numbers and web analytics.
 - Worked on web marketing tasks for clients including managing Adwords, Google Analytics, and search engine optimization.
 
