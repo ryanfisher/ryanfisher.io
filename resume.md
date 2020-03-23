@@ -1,7 +1,12 @@
+---
+layout: resume
+title: Resume - Ryan Fisher
+---
+
 Ryan Fisher
 ===========
 ryancfisher@gmail.com  
-[https://www.ryanfisher.io](https://www.ryanfisher.io)
+[https://www.ryanfisher.io](https://www.ryanfisher.io)<br />
 [https://github.com/ryanfisher](https://github.com/ryanfisher)
 
 Experience
