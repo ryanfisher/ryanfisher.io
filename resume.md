@@ -14,7 +14,7 @@ Experience
 ### Senior Full Stack Engineer (May, 2018 - March, 2020)
 #### Sticker Mule, Remote
 
-Developed new services and maintained legacy Ruby on Rails/React ecommerce site where customers could buy custom stickers and related products.
+Developed new services and maintained Ruby on Rails/React site where customers could buy custom stickers and related products.
 
 ##### Responsibilities
 - Wrote out technical plans for projects and new features.
@@ -44,13 +44,13 @@ Led remote team developing Ruby on Rails and React/Redux application that allows
 ### Senior Software Engineer (March, 2015 - April, 2017)
 #### Doctible, San Diego, CA
 
-Developed Ruby on Rails and Backbone.js application that helps cash paying patients find quality healthcare providers with transparent service pricing. Doctible also provides marketing and patient engagement tools that integrate with provider management systems and use Twilio to automate communication.
+Developed Ruby on Rails, Backbone.js, and React applications giving healthcare providers marketing and patient engagement tools that integrate with provider management systems.
 
 ##### Responsibilities
 - Worked directly with CTO to plan product development and attended product meetings with founding team to provide technical guidance.
 - Developed job server with Sidekiq and Redis to offload asynchronous computationally complex tasks.
 - Maintained and built new features in our main Ruby on Rails and Backbone.js application.
-- Wrote doctor/patient messaging system with a frontend in React/Redux/ES6.
+- Wrote doctor/patient messaging system with a frontend in React/Redux/ES6 and integration with Twilio.
 - Provided detailed code reviews and mentored interns.
 
 ##### Select Accomplishments
@@ -102,11 +102,6 @@ Personal Projects
 - An Elixir/Phoenix application for tracking pantry inventory and suggesting recipes to use expiring food.
 - Developed a web crawler otp app to search for recipe structured data.
 - Developed a shared shopping list with Elm and Phoenix channels.
-
-#### Baseball Stats (February, 2015 - May, 2015)
-[github.com/ryanfisher/baseball_stats](https://github.com/ryanfisher/baseball_stats)  
-
-- A Ruby gem to help with managing and comparing of baseball statistics and projections.
 
 Technical Skills
 ----------------
