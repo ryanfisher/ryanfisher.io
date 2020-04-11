@@ -23,9 +23,20 @@
         color: #0000EE;
       }
 
+      @media screen {
+        .resume-nav {
+          display: block;
+          float: right;
+        }
+      }
+
       @media print {
         body {
           font-size: 12px;
+        }
+
+        .resume-nav {
+          display: none;
         }
       }
     </style>
@@ -35,6 +46,10 @@
   </head>
   <body>
     <div class="container">
+      <nav class="resume-nav">
+        <a href="/">home</a> |
+        <a href="javascript:window.print()">print</a>
+      </nav>
       {{ content }}
     </div>
   </body>
