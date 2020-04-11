@@ -74,15 +74,6 @@ Developed Ruby on Rails web application that uses interesting articles with fres
 
 Developed web sites for numerous clients using proprietary cms, wrote custom JavaScript solutions, developed python scripts to automate reporting.
 
-Personal Projects
--------------
-#### Pantryio (August, 2015 - present)
-[https://wwww.pantryio.com](https://www.pantryio.com)
-
-- An Elixir/Phoenix application for tracking pantry inventory and suggesting recipes to use expiring food.
-- Developed a web crawler otp app to search for recipe structured data.
-- Developed a shared shopping list with Elm and Phoenix channels.
-
 Technical Skills
 ----------------
 
