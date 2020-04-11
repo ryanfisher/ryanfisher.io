@@ -9,6 +9,12 @@ ryan@ryanfisher.io
 [https://www.ryanfisher.io](https://www.ryanfisher.io)<br />
 [https://github.com/ryanfisher](https://github.com/ryanfisher)
 
+Summary
+-------
+- 8+ years of full stack web development experience with specialties in JavaScript/React and Ruby on Rails.
+- Passionate about high quality code and products, having been an advocate for automated testing and practical approaches to technical debt on all of my teams.
+- Mentored junior developers, trained a team that was new to React/Redux, and provided guidance and constructive feedback through code reviews as a team lead.
+
 Experience
 ----------
 ### Senior Full Stack Engineer (May, 2018 - March, 2020)
