@@ -77,17 +77,7 @@ Developed web sites for numerous clients using proprietary cms, wrote custom Jav
 Technical Skills
 ----------------
 
-#### Very Proficient (4+ years)
-
-Ruby, Rails, RSpec, React, Redux, ES6, JavaScript, CSS3, Sass, jekyll, Git, Github, AWS (EC2, S3, etc), Database Design, Linux
-
-#### Knowledgable
-
-Elixir, Phoenix, PostgreSQL, Google Analytics, Mixpanel, CircleCI, Gitlab, MySQL, DataMapper, Nginx, Google Cloud Storage, Sidekiq, Redis, Elm, Delayed Job, Digital Ocean, Contentful, GraphQL, Pivotal Tracker
-
-#### Other Interests
-
-Functional Programming (generally), Haskell
+Ruby, Rails, RSpec, React, Redux, ES6, JavaScript, CSS3, Sass, jekyll, Git, Github, Database Design, Linux, Elixir, Phoenix, AWS (EC2, S3, etc), PostgreSQL, CircleCI, Gitlab, MySQL, DataMapper, Google Cloud Storage, Sidekiq, Redis, Elm, Delayed Job, Digital Ocean, Contentful, GraphQL, Asana, Pivotal Tracker, Jira, Google Analytics, Mixpanel
 
 
 Education
