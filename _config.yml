@@ -16,9 +16,8 @@
 title: Ryan Fisher
 email: ryan@ryanfisher.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Ryan Fisher is a software engineer based in San Diego, Ca. He spends most of
-  his time sitting quietly, writing code, and soaking in compliments about his
-  beard.
+  Ryan Fisher is a software engineer based in San Diego, Ca. He specializes in
+  Ruby during the day and builds stuff with Elixir at night.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ryan_fisher
