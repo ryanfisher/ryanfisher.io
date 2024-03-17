@@ -5,7 +5,10 @@ date:   2024-03-15 22:00:00 -0800
 garden_notes: plants_in_my_garden
 ---
 
-This is a list of all the plants you can find in my garden separated by areas. Each area is very loosely themed with a focus on certain types of plants. But you'll find I have trouble sticking to a theme when there are so many plants I want to grow!
+Plants in My Garden
+====================
+
+This is a list of all the plants you can find in my garden separated by areas. Each area is very loosely themed with a focus on certain types of plants. But you'll find I have trouble sticking to a theme when there are so many plants to grow!
 
 ### The (Mostly) Drought Tolerant Front Yard Garden
 
@@ -44,10 +47,41 @@ This is a list of all the plants you can find in my garden separated by areas. E
 - Canna 'Pretoria'
 - Philodendron bipinnatifidum ‘Xanadu’
 - Monstera deliciosa
+- Himalayacalamus hookerianus 'Teague's Blue'
+
+- Passiflora edulis (Passionfruit) 'Frederick'
+
+- Bambusa New Guinea Black
 
 - Archontophoenix alexandrae (King Palm)
 - Syagrus romanzoffiana (Queen Palm)
 - Dracaena marginata
 - Cordyline fruticosa (Ti Plant)
 
-- Colocasia esculenta
+- Cyperus papyrus
+- Colocasia esculenta 'Coal Miner'
+
+### The Upper Backyard (Mediterranean Influenced Garden)
+
+- Citrus 'Moro' (Blood Orange)
+- Bougainvillea 'San Diego Red'
+- Pomegranate 'Angel Red'
+- Feijoa sellowiana (Pineapple Guava)
+- Citrus 'Murcott Mandarin'
+
+- Citrus 'Key Lime'
+- Citrus 'Meyer Improved Lemon'
+- Citrus 'Eureka Lemon'
+- Pineapple Guava 'Nazemetz'
+
+- Avocado 'Hass'
+
+- Apple 'Anna'
+- Apple 'Dorsett Golden'
+- Blueberry 'Misty'
+- Blueberry 'O'Neal'
+
+- Artichoke
+- Acanthus mollis (Bear's Breech)
+- Alstroemeria (Peruvian Lily)
+- Loquat 'Gold Nugget'
