@@ -15,6 +15,7 @@ This is a list of all the plants you can find in my garden separated by areas. E
 - Senecio mandraliscae (Blue Chalksticks)
 - Agave 'Blue Flame'
 - Agave 'Blue Glow'
+- Aloe 'Blue Elf'
 - Euphorbia tirucalli 'Sticks on Fire'
 
 - Rosemary
