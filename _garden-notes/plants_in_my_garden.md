@@ -40,7 +40,7 @@ This is a list of all the plants you can find in my garden separated by areas. E
 - Blue Java Banana (Ice Cream Banana)
 - Jasmine
 
-### The Tropical Garden (Lower Backyard)
+### The Sub-Tropical Garden (Lower Backyard)
 
 - Chamaedorea plumosa
 - Chamaedorea costaricana
@@ -54,10 +54,14 @@ This is a list of all the plants you can find in my garden separated by areas. E
 
 - Bambusa New Guinea Black
 
+- Aloe arborescens
+- Plumeria
+
 - Archontophoenix alexandrae (King Palm)
 - Syagrus romanzoffiana (Queen Palm)
 - Dracaena marginata
 - Cordyline fruticosa (Ti Plant)
+- Hibiscus
 
 - Cyperus papyrus
 - Colocasia esculenta 'Coal Miner'
