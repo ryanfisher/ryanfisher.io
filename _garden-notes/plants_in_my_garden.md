@@ -23,6 +23,7 @@ This is a list of all the plants you can find in my garden separated by areas. E
 
 - Pomegranate 'Wonderful'
 - Citrus 'Moro' (Blood Orange)
+- Citrus 'Cara Cara' (2024-03-24)
 
 - Philodendron selloum
 
@@ -78,6 +79,8 @@ This is a list of all the plants you can find in my garden separated by areas. E
 - Citrus 'Meyer Improved Lemon'
 - Citrus 'Eureka Lemon'
 - Pineapple Guava 'Nazemetz'
+
+- Panache 'Tiger' Fig
 
 - Avocado 'Hass'
 
