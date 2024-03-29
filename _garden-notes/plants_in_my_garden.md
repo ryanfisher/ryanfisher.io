@@ -56,7 +56,7 @@ This is a list of all the plants you can find in my garden separated by areas. E
 - Bambusa New Guinea Black
 
 - Aloe arborescens
-- Plumeria
+- Plumeria rubra
 
 - Archontophoenix alexandrae (King Palm)
 - Syagrus romanzoffiana (Queen Palm)
@@ -64,6 +64,7 @@ This is a list of all the plants you can find in my garden separated by areas. E
 - Cordyline fruticosa (Ti Plant)
 - Hibiscus
 
+- Nephrolepsis exaltata (Boston Fern)
 - Cyperus papyrus
 - Colocasia esculenta 'Coal Miner'
 
