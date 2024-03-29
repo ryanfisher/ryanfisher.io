@@ -13,3 +13,6 @@ The Drought Tolerant Front Yard Garden
 #### Semi-Dwarf Cara Cara Navel Orange
 
 > Full-sized, seedless fruit has flavorful, juicy, deep pink flesh. Extremely sweet, low acid fruit. Attractive, medium sized tree has deep green foliage. Fruits January to March. Blooms in Spring. Hardy to 28F.
+
+- Planted March 24, 2024.
+- Bought at City Farmers Nursery.
