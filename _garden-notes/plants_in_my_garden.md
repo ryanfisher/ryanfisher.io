@@ -58,6 +58,8 @@ This is a list of all the plants you can find in my garden separated by areas. E
 - Aloe arborescens
 - Plumeria rubra
 
+- Citrus 'Bearss Lime'
+
 - Archontophoenix alexandrae (King Palm)
 - Syagrus romanzoffiana (Queen Palm)
 - Dracaena marginata
@@ -83,6 +85,7 @@ This is a list of all the plants you can find in my garden separated by areas. E
 
 - Panache 'Tiger' Fig
 
+- Avocado 'Fuerte'
 - Avocado 'Hass'
 
 - Apple 'Anna'
