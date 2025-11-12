@@ -33,7 +33,7 @@ export default function Home() {
 
         <p className="w-3xl">
           When I'm not building software, I like to spend time outside, often still building. I've built my own
-          office shed, a "treehouse" for my kids, a waterfall/pond (with more planned), and an extensive garden.
+          office shed, a "treehouse" for my kids, a waterfall/pond (with more planned), and an ever-growing garden.
         </p>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
