@@ -10,7 +10,10 @@ type WorkItemProps = {
 }
 
 const WorkItemBullet = ({company, position, dates, ...props}: WorkItemProps) => (
-  <li>{position} at {props.website ? <a href={props.website}>{company}</a> : company} - {dates}</li>
+  <li className="flex items-start">
+    <div className="bg-white rounded-full h-2 w-2 mr-2 ml-2 mt-2 z-10 inline-block"></div>
+    <div>{position} at {props.website ? <a href={props.website}>{company}</a> : company} - {dates}</div>
+  </li>
 )
 
 const WorkItemList = ({positions}: {positions: WorkItemProps[]}) => (
