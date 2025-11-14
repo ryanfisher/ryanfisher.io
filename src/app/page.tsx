@@ -36,8 +36,8 @@ export default function Home() {
       </Paragraph>
 
       <Paragraph>
-        When I'm not building software, I like to spend time outside, often still building. I've built my own
-        office shed, a "treehouse" for my kids, a waterfall/pond (with more planned), and an ever-growing garden.
+        When I'm not building software, I like to spend time outside, often still building. I've built my
+        own <a href="/shed">office shed</a>, a "treehouse" for my kids, a waterfall/pond (with more planned), and an ever-growing garden.
       </Paragraph>
 
       <div className="gap-4 items-center">
