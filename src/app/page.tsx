@@ -1,6 +1,8 @@
-import Image from "next/image"
+import Paragraph from "@/components/Paragraph"
 import { positions } from "../positions"
-import { headlineBold } from "@/fonts"
+import Headline from "@/components/Headline"
+import H2 from "@/components/H2"
+import PageWrap from "@/components/PageWrap"
 
 type WorkItemProps = {
   company: string
@@ -24,30 +26,26 @@ const WorkItemList = ({positions}: {positions: WorkItemProps[]}) => (
 
 export default function Home() {
   return (
-    <div className="font-sans p-8">
-      <main className="flex flex-col gap-[32px]">
-        <h1 className={`text-4xl ${headlineBold.className}`}>Hi, I'm Ryan</h1>
-        <p className="md:w-2xl lg:w-3xl">
-          I'm a software engineer based in San Diego. I specialize in building web applications using
-          Ruby on Rails on the backend and JavaScript, TypeScript, and React on the frontend. Over the
-          past decade plus of writing software professionally, I've used a lot of different technologies,
-          with many years of experience building applications with PostgreSQL, Sidekiq, Redis, etc.
-        </p>
+    <PageWrap>
+      <Headline>Hi, I'm Ryan</Headline>
+      <Paragraph>
+        I'm a software engineer based in San Diego. I specialize in building web applications using
+        Ruby on Rails on the backend and JavaScript, TypeScript, and React on the frontend. Over the
+        past decade plus of writing software professionally, I've used a lot of different technologies,
+        with many years of experience building applications with PostgreSQL, Sidekiq, Redis, etc.
+      </Paragraph>
 
-        <p className="md:w-2xl lg:w-3xl">
-          When I'm not building software, I like to spend time outside, often still building. I've built my own
-          office shed, a "treehouse" for my kids, a waterfall/pond (with more planned), and an ever-growing garden.
-        </p>
+      <Paragraph>
+        When I'm not building software, I like to spend time outside, often still building. I've built my own
+        office shed, a "treehouse" for my kids, a waterfall/pond (with more planned), and an ever-growing garden.
+      </Paragraph>
 
-        <div className="gap-4 items-center">
-          <div>
-            <h2 className={`text-2xl mb-1 ${headlineBold.className}`}>Work</h2>
-            <WorkItemList positions={positions} />
-          </div>
+      <div className="gap-4 items-center">
+        <div>
+          <H2>Work</H2>
+          <WorkItemList positions={positions} />
         </div>
-      </main>
-      <footer className="row-start-3 gap-[24px] items-center justify-center">
-      </footer>
-    </div>
-  );
+      </div>
+    </PageWrap>
+  )
 }
