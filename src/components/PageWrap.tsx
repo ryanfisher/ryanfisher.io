@@ -1,9 +1,11 @@
 import { ChevronLeftIcon, HomeIcon } from "@heroicons/react/24/outline"
 import Link from "next/link"
+import { Breadcrumb } from "@/app/types"
 
 type PageWrapProps = {
     children: React.ReactNode
     showHomeNav?: boolean
+    breadcrumbs?: Breadcrumb[]
 }
 
 const HomeNav = () => (
@@ -13,12 +15,10 @@ const HomeNav = () => (
     </Link>
 )
 
-export default ({ children, showHomeNav }: PageWrapProps) => (
+export default ({ children, showHomeNav, breadcrumbs }: PageWrapProps) => (
     <div className="font-sans p-8">
         <main className="flex flex-col gap-[32px]">
-            {
-                showHomeNav && <HomeNav />
-            }
+            {showHomeNav && <HomeNav />}
             {children}
         </main>
     </div>
