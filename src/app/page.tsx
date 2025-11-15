@@ -3,6 +3,7 @@ import { positions } from "../positions"
 import Headline from "@/components/Headline"
 import H2 from "@/components/H2"
 import PageWrap from "@/components/PageWrap"
+import Link from "next/link"
 
 type WorkItemProps = {
   company: string
@@ -37,7 +38,7 @@ export default function Home() {
 
       <Paragraph>
         When I'm not building software, I like to spend time outside, often still building. I've built my
-        own <a href="/shed">office shed</a>, a "treehouse" for my kids, a waterfall/pond (with more planned), and an ever-growing garden.
+        own <Link href="/shed">office shed</Link>, a "treehouse" for my kids, a waterfall/pond (with more planned), and an ever-growing garden.
       </Paragraph>
 
       <div className="gap-4 items-center">

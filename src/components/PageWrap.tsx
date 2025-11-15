@@ -1,4 +1,5 @@
 import { ChevronLeftIcon, HomeIcon } from "@heroicons/react/24/outline"
+import Link from "next/link"
 
 type PageWrapProps = {
     children: React.ReactNode
@@ -6,10 +7,10 @@ type PageWrapProps = {
 }
 
 const HomeNav = () => (
-    <a href="/" className="inline-block">
+    <Link href="/" className="inline-block">
         <ChevronLeftIcon className="inline-block" width={24} height={24} />
         <HomeIcon className="inline-block" width={24} height={24} />
-    </a>
+    </Link>
 )
 
 export default ({ children, showHomeNav }: PageWrapProps) => (
