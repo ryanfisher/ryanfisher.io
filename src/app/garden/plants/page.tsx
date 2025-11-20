@@ -18,7 +18,7 @@ const AreaList = ({ name, plants }: { name: string, plants: Plant[]}) => (
     <>
         <H2>{name}</H2>
         <ul>
-            {plants.map(plant => <li>{`${plant.plant}${plant.commonName ? ` (${plant.commonName})` : ''}`}</li>)}
+            {plants.map(plant => <li key={plant.plant}>{`${plant.plant}${plant.commonName ? ` (${plant.commonName})` : ''}`}</li>)}
         </ul>
     </>
 )
