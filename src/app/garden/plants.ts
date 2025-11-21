@@ -93,6 +93,6 @@ export const PLANTS = [
     { plant: "Eriobotrya japonica 'Gold Nugget'", commonName: "Loquat 'Gold Nugget'", areaId: 3 },
     { plant: "Eriobotrya japonica 'Champagne'", commonName: "Loquat 'Champagne'", areaId: 3 },
     { plant: "Blue Java Banana", commonName: "Ice Cream Banana", areaId: 3 },
-    { plant: "Prunus avium 'Minnie Royal'", commonName: "Cherry 'Minnie Royal'", areaId: 3 },
-    { plant: "Prunus avium 'Royal Lee'", commonName: "Cherry 'Royal Lee'", areaId: 3 },
+    { plant: "Prunus avium 'Minnie Royal'", commonName: "Cherry 'Minnie Royal'", areaId: 3, link: "/garden/plants/cherry" },
+    { plant: "Prunus avium 'Royal Lee'", commonName: "Cherry 'Royal Lee'", areaId: 3, link: "/garden/plants/cherry" },
 ]

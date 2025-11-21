@@ -3,6 +3,7 @@ import Headline from "@/components/Headline"
 import PageWrap from "@/components/PageWrap"
 import Paragraph from "@/components/Paragraph"
 import { AREAS, PLANTS } from "../plants"
+import Link from "next/link"
 
 const breadcrumbs = [
     {text: "Garden", link: "/garden"}
@@ -12,13 +13,23 @@ type Plant = {
     plant: string
     commonName: string | null
     areaId: number
+    link?: string
 }
+
+const plantName = (plant: Plant): string =>
+    `${plant.plant}${plant.commonName ? ` (${plant.commonName})` : ''}`
+
+const PlantListItem = ({ plant }: { plant: Plant }) => (
+    <li>
+        {plant.link ? <Link href={plant.link}>{plantName(plant)}</Link> : plantName(plant)}
+    </li>
+)
 
 const AreaList = ({ name, plants }: { name: string, plants: Plant[]}) => (
     <>
         <H2>{name}</H2>
         <ul>
-            {plants.map(plant => <li key={plant.plant}>{`${plant.plant}${plant.commonName ? ` (${plant.commonName})` : ''}`}</li>)}
+            {plants.map(plant => <PlantListItem  key={plant.plant} plant={plant} />)}
         </ul>
     </>
 )
