@@ -14,7 +14,11 @@ export default async function Page() {
     return (
         <PageWrap showHomeNav breadcrumbs={breadcrumbs}>
             <Headline>Cherry</Headline>
-            <Image src={CherryTrees1125} alt="cherry trees in November 2025" />
+            <Paragraph>
+                <Image src={CherryTrees1125} alt="cherry trees in November 2025" />
+                Royal Lee on the left, Minnie Royal on the right. These trees
+                pollinate each other.
+            </Paragraph>
             <H2>Varieties</H2>
             <ul>
                 <li>Minnie Royal</li>
