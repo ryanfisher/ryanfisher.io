@@ -4,6 +4,7 @@ import Headline from "@/components/Headline"
 import H2 from "@/components/H2"
 import PageWrap from "@/components/PageWrap"
 import Link from "next/link"
+import List from "@/components/List"
 
 type WorkItemProps = {
   company: string
@@ -12,17 +13,19 @@ type WorkItemProps = {
   website?: string
 }
 
-const WorkItemBullet = ({company, position, dates, ...props}: WorkItemProps) => (
-  <li className="flex items-start">
-    <div className="bg-white rounded-full h-2 w-2 mr-2 ml-2 mt-2 z-10 inline-block"></div>
-    <div>{position} at {props.website ? <a href={props.website}>{company}</a> : company} - {dates}</div>
-  </li>
+const Position = ({company, position, dates, ...props}: WorkItemProps) => (
+  <div>{position} at {props.website ? <a href={props.website}>{company}</a> : company} - {dates}</div>
 )
 
 const WorkItemList = ({positions}: {positions: WorkItemProps[]}) => (
-  <ul role="list" className="">
-    {positions.map(position => <WorkItemBullet key={position.dates} {...position} />)}
-  </ul>
+  <List items={
+    positions.map(
+      position => ({
+        key: position.dates,
+        node: <Position {...position} />
+      })
+    )
+  } />
 )
 
 export default function Home() {
