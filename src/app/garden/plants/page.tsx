@@ -6,7 +6,8 @@ import { AREAS, PLANTS } from "../plants"
 import Link from "next/link"
 
 const breadcrumbs = [
-    {text: "Garden", link: "/garden"}
+    {text: "Garden", link: "/garden"},
+    {text: "Plants"},
 ]
 
 type Plant = {
@@ -14,6 +15,7 @@ type Plant = {
     commonName: string | null
     areaId: number
     link?: string
+    displayName?: string
 }
 
 const plantName = (plant: Plant): string =>
@@ -21,7 +23,7 @@ const plantName = (plant: Plant): string =>
 
 const PlantListItem = ({ plant }: { plant: Plant }) => (
     <li>
-        {plant.link ? <Link href={plant.link}>{plantName(plant)}</Link> : plantName(plant)}
+        {plant.link ? <Link href={plant.link}>{plant.displayName}</Link> : plant.displayName}
     </li>
 )
 
@@ -35,7 +37,10 @@ const AreaList = ({ name, plants }: { name: string, plants: Plant[]}) => (
 )
 
 const plantsByAreaId = (id: number): Plant[] =>
-    PLANTS.filter(plant => plant.areaId === id)
+    PLANTS
+        .filter(plant => plant.areaId === id)
+        .map(plant => ({...plant, displayName: plantName(plant)}))
+        .sort((a, b) => a.displayName.localeCompare(b.displayName))
 
 export default async function Page() {
     return (

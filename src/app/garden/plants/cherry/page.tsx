@@ -8,6 +8,7 @@ import CherryTrees1125 from "@/images/plants/cherry/20251120_163621.jpg"
 const breadcrumbs = [
     {text: "Garden", link: "/garden"},
     {text: "Plants", link: "/garden/plants"},
+    {text: "Cherry"},
 ]
 
 export default async function Page() {
