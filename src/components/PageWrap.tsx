@@ -17,7 +17,7 @@ const HomeNav = () => (
 const Breadcrumbs = ({ breadcrumbs }: { breadcrumbs: Breadcrumb[] }) => (
     breadcrumbs.map((breadcrumb, index) => (<div className="inline-block" key={index}>
         <ChevronRightIcon className="inline-block" width={24} height={24} />
-        <Link href={breadcrumb.link} className="inline-block">{breadcrumb.text}</Link>
+        <Link href={breadcrumb.link} className="inline-block align-text-top">{breadcrumb.text}</Link>
     </div>))
 )
 
