@@ -7,11 +7,11 @@ const ListItem = ({node}: {node: React.ReactNode}) => (
 
 type Items = {
     node: React.ReactNode,
-    key: string
+    key?: string
 }[]
 
 export default ({ items }: { items: Items }) => (
     <ul role="list" className="">
-        {items.map(item => <ListItem key={item.key} node={item.node} />)}
+        {items.map((item, index) => <ListItem key={item.key || index} node={item.node} />)}
     </ul>
 )
