@@ -5,21 +5,17 @@ import Paragraph from "@/components/Paragraph"
 import { AREAS, PLANTS } from "../plants"
 import Link from "next/link"
 
+import { Plant } from "@/app/types"
+
 const breadcrumbs = [
     {text: "Garden", link: "/garden"},
     {text: "Plants"},
 ]
 
-type Plant = {
-    plant: string
-    commonName: string | null
-    areaId: number
-    link?: string
-    displayName?: string
-}
-
 const plantName = (plant: Plant): string =>
-    `${plant.plant}${plant.commonName ? ` (${plant.commonName})` : ''}`
+    plant.edible ?
+    (plant.commonName || plant.name) :
+    `${plant.name}${plant.commonName ? ` (${plant.commonName})` : ''}`
 
 const PlantListItem = ({ plant }: { plant: Plant }) => (
     <li>
@@ -31,7 +27,7 @@ const AreaList = ({ name, plants }: { name: string, plants: Plant[]}) => (
     <>
         <H2>{name}</H2>
         <ul>
-            {plants.map(plant => <PlantListItem  key={plant.plant} plant={plant} />)}
+            {plants.map(plant => <PlantListItem  key={plant.name} plant={plant} />)}
         </ul>
     </>
 )

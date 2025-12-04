@@ -18,7 +18,7 @@ const inspirationItems = [
 
 const resourceItems = [
     {
-        node: <Link href="https://www.junglemusic.net/palmadvice/palms-seed-germination.htm">
+        node: <Link href="https://www.junglemusic.net/palmadvice/palms-seed-germination.htm" target="_blank">
             Palm Seed Germination
         </Link>
     }
