@@ -112,3 +112,14 @@ export const PLANTS: Plant[] = [
     { name: "Prunus avium 'Minnie Royal'", commonName: "Cherry 'Minnie Royal'", areaId: 3, link: "/garden/plants/cherry", edible: true },
     { name: "Prunus avium 'Royal Lee'", commonName: "Cherry 'Royal Lee'", areaId: 3, link: "/garden/plants/cherry", edible: true },
 ]
+
+const plantName = (plant: Plant): string =>
+    plant.edible ?
+    (plant.commonName || plant.name) :
+    `${plant.name}${plant.commonName ? ` (${plant.commonName})` : ''}`
+
+export const plantsByAreaId = (id: number): Plant[] =>
+    PLANTS
+        .filter(plant => plant.areaId === id)
+        .map(plant => ({...plant, displayName: plantName(plant)}))
+        .sort((a, b) => a.displayName.localeCompare(b.displayName))
