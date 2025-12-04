@@ -28,7 +28,7 @@ export default async function Page() {
             <Paragraph>
                 <H3>San Diego Zoo</H3>
                 <Link href="https://animals.sandiegozoo.org/plants" target="_blank">animals.sandiegozoo.org/plants</Link><br />
-                While most might don't think of the zoo as a botanical garden, the plant collection is very impressive. There are several different plant collections. The zoo offers occasional botanical tours and a lot of information on their website.
+                While most might not think of the zoo as a botanical garden, the plant collection is very impressive. They offer occasional botanical tours and a lot of information on their website.
             </Paragraph>
         </PageWrap>
     )
