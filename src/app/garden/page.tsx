@@ -30,13 +30,9 @@ export default async function Page() {
             <Headline>The Garden</Headline>
             <Paragraph><Link href="/garden/plants">the plant list</Link></Paragraph>
             <H2>Inspiration</H2>
-            <Paragraph>
-                <List items={inspirationItems} />
-            </Paragraph>
+            <List items={inspirationItems} />
             <H2>Resources</H2>
-            <Paragraph>
-                <List items={resourceItems} />
-            </Paragraph>
+            <List items={resourceItems} />
         </PageWrap>
     )
 }

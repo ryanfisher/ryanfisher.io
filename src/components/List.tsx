@@ -1,6 +1,6 @@
 const ListItem = ({node}: {node: React.ReactNode}) => (
     <li className="flex items-start">
-        <div className="bg-white rounded-full h-2 w-2 mr-2 ml-2 mt-2 z-10 inline-block"></div>
+        <span className="bg-white rounded-full h-2 w-2 mr-2 ml-2 mt-2 z-10 inline-block"></span>
         {node}
     </li>
 )
