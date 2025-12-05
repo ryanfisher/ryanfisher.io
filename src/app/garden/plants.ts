@@ -113,7 +113,7 @@ export const PLANTS: Plant[] = [
     { name: "Prunus avium 'Royal Lee'", commonName: "Cherry 'Royal Lee'", areaId: 3, link: "/garden/plants/cherry", edible: true },
 ]
 
-const plantName = (plant: Plant): string =>
+export const plantName = (plant: Plant): string =>
     plant.edible ?
     (plant.commonName || plant.name) :
     `${plant.name}${plant.commonName ? ` (${plant.commonName})` : ''}`
