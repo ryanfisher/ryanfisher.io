@@ -55,7 +55,7 @@ export const PLANTS: Plant[] = [
     { name: "Philodendron bipinnatifidum 'Xanadu'", commonName: null, areaId: 2 },
     { name: "Monstera deliciosa", commonName: "Monstera", areaId: 2 },
     { name: "Himalayacalamus hookerianus 'Teague's Blue'", commonName: null, areaId: 2 },
-    { name: "Passiflora edulis 'Frederick'", commonName: "Passionfruit 'Frederick'", areaId: 2 },
+    { name: "Passiflora edulis 'Frederick'", commonName: "Passionfruit 'Frederick'", areaId: 2, edible: true },
     { name: "Bambusa 'New Guinea Black'", commonName: null, areaId: 2 },
     { name: "Aloe arborescens", commonName: null, areaId: 2 },
     { name: "Plumeria rubra", commonName: "Frangipani", areaId: 2 },
