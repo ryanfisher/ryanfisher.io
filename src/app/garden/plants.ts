@@ -39,9 +39,9 @@ export const PLANTS: Plant[] = [
     // ---------------------------
     // 1: The Small Side Garden
     // ---------------------------
-    { name: "Bambusa multiplex 'Alphonse Karr'", commonName: null, areaId: 1 },
+    { name: "Bambusa multiplex 'Alphonse Karr'", commonName: null, areaId: 1, link: "/garden/plants/bamboo" },
     { name: "Strelitzia nicolai", commonName: "Giant White Bird of Paradise", areaId: 1 },
-    { name: "Bambusa chungii 'Barbelletta'", commonName: "Blue Bamboo", areaId: 1 },
+    { name: "Bambusa chungii 'Barbelletta'", commonName: "Blue Bamboo", areaId: 1, link: "/garden/plants/bamboo" },
     { name: "Blue Java Banana", commonName: "Ice Cream Banana", areaId: 1 },
     { name: "Jasmine", commonName: null, areaId: 1 },
 
@@ -56,7 +56,8 @@ export const PLANTS: Plant[] = [
     { name: "Monstera deliciosa", commonName: "Monstera", areaId: 2 },
     { name: "Himalayacalamus hookerianus 'Teague's Blue'", commonName: null, areaId: 2 },
     { name: "Passiflora edulis 'Frederick'", commonName: "Passionfruit 'Frederick'", areaId: 2, edible: true },
-    { name: "Bambusa 'New Guinea Black'", commonName: null, areaId: 2 },
+    { name: "Bambusa 'New Guinea Black'", commonName: null, areaId: 2, link: "/garden/plants/bamboo" },
+    { name: "Bambusa chungii 'Barbelletta'", commonName: "Blue Bamboo", areaId: 2, link: "/garden/plants/bamboo" },
     { name: "Aloe arborescens", commonName: null, areaId: 2 },
     { name: "Plumeria rubra", commonName: "Frangipani", areaId: 2 },
     { name: "Citrus 'Bearss Lime'", commonName: null, areaId: 2, edible: true },
