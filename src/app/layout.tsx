@@ -3,7 +3,7 @@ import "./globals.css"
 import { bodyText } from "@/fonts"
 
 export const metadata: Metadata = {
-  title: "Ryan Fisher - Software Engineer, Hobbyist Photographer, Couch Philosopher",
+  title: "Ryan Fisher - Software Engineer, Garden Enthusiast, DIY Builder",
   description: "Ryan Fisher is a software engineer based in San Diego, CA. He specializes in Ruby on Rails on the backend and JavaScript, TypeScript, and React on the frontend.",
 }
 

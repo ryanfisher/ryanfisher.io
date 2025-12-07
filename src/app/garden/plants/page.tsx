@@ -5,6 +5,12 @@ import Paragraph from "@/components/Paragraph"
 import { AREAS, plantsByAreaId } from "../plants"
 import Link from "next/link"
 import { Plant } from "@/app/types"
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Plants in the Garden - Ryan Fisher",
+  description: "The garden has a few themed areas with a variety of edible, sub-tropical, and drought tolerant plants.",
+}
 
 const breadcrumbs = [
     {text: "Garden", link: "/garden"},
