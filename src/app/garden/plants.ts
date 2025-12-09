@@ -69,6 +69,13 @@ export const PLANTS: Plant[] = [
     { name: "Nephrolepis exaltata", commonName: "Boston Fern", areaId: 2 },
     { name: "Cyperus papyrus", commonName: "Papyrus", areaId: 2 },
     { name: "Colocasia esculenta 'Coal Miner'", commonName: null, areaId: 2 },
+    {
+        name: "Dracaena draco",
+        commonName: "Dragon Tree",
+        inContainer: true,
+        areaId: 2,
+        added: new Date("2025-12-7")
+    },
 
     // ---------------------------
     // 3: The Upper Backyard (Mediterranean Influenced Edible Garden)
