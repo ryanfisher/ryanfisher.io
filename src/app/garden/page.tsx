@@ -3,7 +3,7 @@ import Headline from "@/components/Headline"
 import List from "@/components/List"
 import PageWrap from "@/components/PageWrap"
 import Paragraph from "@/components/Paragraph"
-import Link from "next/link"
+import Link from "@/components/Link"
 
 const breadcrumbs = [
     {text: "Garden"},
@@ -18,9 +18,19 @@ const inspirationItems = [
 
 const resourceItems = [
     {
-        node: <Link href="https://www.junglemusic.net/palmadvice/palms-seed-germination.htm" target="_blank">
+        node: <Link href="https://www.floragrubb.com/" external>
+            Flora Grubb Gardens
+        </Link>,
+    },
+    {
+        node: <Link href="https://www.junglemusic.net/palmadvice/palms-seed-germination.htm" external>
             Palm Seed Germination
-        </Link>
+        </Link>,
+    },
+    {
+        node: <Link href="https://waterwisegardenplanner.org/" external>
+            Waterwise Garden Planner
+        </Link>,
     }
 ]
 
