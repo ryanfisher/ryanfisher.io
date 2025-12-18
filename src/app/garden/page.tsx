@@ -18,9 +18,9 @@ const inspirationItems = [
 
 const resourceItems = [
     {
-        node: <Link href="https://www.floragrubb.com/" external>
+        node: <span><Link href="https://www.floragrubb.com/" external>
             Flora Grubb Gardens
-        </Link>,
+        </Link> - Garden store in LA and SF. Lots of plant info.</span>,
     },
     {
         node: <Link href="https://www.junglemusic.net/palmadvice/palms-seed-germination.htm" external>
@@ -38,7 +38,11 @@ export default async function Page() {
     return (
         <PageWrap showHomeNav breadcrumbs={breadcrumbs}>
             <Headline>The Garden</Headline>
-            <Paragraph><Link href="/garden/plants">the plant list</Link></Paragraph>
+            <Paragraph>
+                <Link href="/garden/plants">the plant list</Link>
+                <br />
+                <Link href="/garden/wishlist">the wishlist</Link>
+            </Paragraph>
             <H2>Inspiration</H2>
             <List items={inspirationItems} />
             <H2>Resources</H2>

@@ -6,10 +6,13 @@ export type Breadcrumb = {
 export type Plant = {
     name: string
     commonName: string | null
+    displayName?: string
+    edible?: boolean
+}
+
+export type GardenPlant = Plant & {
     areaId: number
     added?: Date
-    edible?: boolean
     inContainer?: boolean
     link?: string
-    displayName?: string
 }

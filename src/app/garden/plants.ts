@@ -1,4 +1,4 @@
-import { Plant } from "../types"
+import { GardenPlant, Plant } from "../types"
 
 export const AREAS = [
     {
@@ -15,7 +15,7 @@ export const AREAS = [
     }
 ]
 
-export const PLANTS: Plant[] = [
+export const PLANTS: GardenPlant[] = [
     // ---------------------------
     // 0: The (Mostly) Drought Tolerant Front Yard Garden
     // ---------------------------
@@ -126,7 +126,7 @@ export const plantName = (plant: Plant): string =>
     (plant.commonName || plant.name) :
     `${plant.name}${plant.commonName ? ` (${plant.commonName})` : ''}`
 
-export const plantsByAreaId = (id: number): Plant[] =>
+export const plantsByAreaId = (id: number): GardenPlant[] =>
     PLANTS
         .filter(plant => plant.areaId === id)
         .map(plant => ({...plant, displayName: plantName(plant)}))

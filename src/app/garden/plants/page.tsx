@@ -4,7 +4,7 @@ import PageWrap from "@/components/PageWrap"
 import Paragraph from "@/components/Paragraph"
 import { AREAS, plantsByAreaId } from "../plants"
 import Link from "next/link"
-import { Plant } from "@/app/types"
+import { GardenPlant } from "@/app/types"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -17,13 +17,13 @@ const breadcrumbs = [
     {text: "Plants"},
 ]
 
-const PlantListItem = ({ plant }: { plant: Plant }) => (
+const PlantListItem = ({ plant }: { plant: GardenPlant }) => (
     <li>
         {plant.link ? <Link href={plant.link}>{plant.displayName}</Link> : plant.displayName}
     </li>
 )
 
-const AreaList = ({ name, plants }: { name: string, plants: Plant[]}) => (
+const AreaList = ({ name, plants }: { name: string, plants: GardenPlant[]}) => (
     <>
         <H2>{name}</H2>
         <ul>
