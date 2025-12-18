@@ -9,7 +9,10 @@ export default (props: Props) => {
     const attributes: LinkProps = {
         ...props
     }
-    if (props.external) attributes.target = "_blank"
 
-    return <Link {...attributes}>{props.children}</Link>
+    if (props.external) {
+        return <Link {...attributes} target="_blank">{props.children}</Link>
+    } else {
+        return <Link {...attributes}>{props.children}</Link>
+    }
 }
