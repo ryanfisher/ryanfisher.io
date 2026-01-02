@@ -60,7 +60,7 @@ export const PLANTS: GardenPlant[] = [
     { name: "Bambusa chungii 'Barbelletta'", commonName: "Blue Bamboo", areaId: 2, link: "/garden/plants/bamboo" },
     { name: "Aloe arborescens", commonName: null, areaId: 2 },
     { name: "Plumeria rubra", commonName: "Frangipani", areaId: 2 },
-    { name: "Citrus 'Bearss Lime'", commonName: null, areaId: 2, edible: true },
+    { name: "Citrus 'Bearss Lime'", commonName: null, areaId: 2, edible: true, inContainer: true },
     { name: "Archontophoenix alexandrae", commonName: "King Palm", areaId: 2 },
     { name: "Syagrus romanzoffiana", commonName: "Queen Palm", areaId: 2 },
     { name: "Dracaena marginata", commonName: "Dragon Tree", areaId: 2 },
@@ -75,6 +75,27 @@ export const PLANTS: GardenPlant[] = [
         inContainer: true,
         areaId: 2,
         added: new Date("2025-12-7")
+    },
+    {
+        name: "Dypsis decaryi",
+        commonName: "Triangle Palm",
+        inContainer: true,
+        areaId: 2,
+        added: new Date("2025-12-30")
+    },
+    {
+        name: "Brugmansia 'Miner's Claim'",
+        commonName: "Variegated Angel's Trumpet",
+        inContainer: true,
+        areaId: 2,
+        added: new Date("2025-12-30")
+    },
+    {
+        name: "Aloe 'Hecules'",
+        commonName: "Tree Aloe",
+        inContainer: true,
+        areaId: 2,
+        added: new Date("2025-12-30")
     },
 
     // ---------------------------
