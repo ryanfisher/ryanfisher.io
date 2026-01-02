@@ -5,12 +5,12 @@ type Props = {
     external?: boolean
 } & LinkProps
 
-export default (props: Props) => {
+export default ({ external, ...props}: Props) => {
     const attributes: LinkProps = {
         ...props
     }
 
-    if (props.external) {
+    if (external) {
         return <Link {...attributes} target="_blank">{props.children}</Link>
     } else {
         return <Link {...attributes}>{props.children}</Link>
