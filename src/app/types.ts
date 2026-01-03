@@ -15,4 +15,5 @@ export type GardenPlant = Plant & {
     added?: Date
     inContainer?: boolean
     link?: string
+    nurseryId?: number
 }

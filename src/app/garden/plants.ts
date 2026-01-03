@@ -15,6 +15,33 @@ export const AREAS = [
     }
 ]
 
+export const NURSERIES = [
+    {
+        id: 1,
+        name: "Walter Andersen",
+        location: "San Diego"
+    },
+    {
+        id: 2,
+        name: "Walter Andersen",
+        location: "Poway"
+    },
+    {
+        id: 3,
+        name: "Mission Hills Nursery",
+        location: "San Diego"
+    },
+    {
+        id: 4,
+        name: "City Farmers Nursery",
+        location: "San Diego"
+    },
+    {
+        id: 5,
+        name: "Home Depot"
+    }
+]
+
 export const PLANTS: GardenPlant[] = [
     // ---------------------------
     // 0: The (Mostly) Drought Tolerant Front Yard Garden
@@ -74,28 +101,32 @@ export const PLANTS: GardenPlant[] = [
         commonName: "Dragon Tree",
         inContainer: true,
         areaId: 2,
-        added: new Date("2025-12-7")
+        added: new Date("2025-12-7"),
+        nurseryId: 5
     },
     {
         name: "Dypsis decaryi",
         commonName: "Triangle Palm",
         inContainer: true,
         areaId: 2,
-        added: new Date("2025-12-30")
+        added: new Date("2025-12-30"),
+        nurseryId: 1
     },
     {
         name: "Brugmansia 'Miner's Claim'",
         commonName: "Variegated Angel's Trumpet",
         inContainer: true,
         areaId: 2,
-        added: new Date("2025-12-30")
+        added: new Date("2025-12-30"),
+        nurseryId: 1
     },
     {
         name: "Aloe 'Hecules'",
         commonName: "Tree Aloe",
         inContainer: true,
         areaId: 2,
-        added: new Date("2025-12-30")
+        added: new Date("2025-12-30"),
+        nurseryId: 3
     },
 
     // ---------------------------
