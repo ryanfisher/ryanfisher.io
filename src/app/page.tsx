@@ -2,6 +2,7 @@ import Paragraph from "@/components/Paragraph"
 import { positions } from "../positions"
 import Headline from "@/components/Headline"
 import H2 from "@/components/H2"
+import H3 from "@/components/H3"
 import PageWrap from "@/components/PageWrap"
 import Link from "next/link"
 import List from "@/components/List"
@@ -44,6 +45,19 @@ export default function Home() {
         own <Link href="/shed">office shed</Link>, a "treehouse" for my kids, a
         waterfall/pond (with more planned), and an ever-growing <Link href="/garden">garden</Link>.
       </Paragraph>
+
+      <div className="gap-4 items-center">
+        <div>
+          <H2>Personal Projects</H2>
+          <H3><Link href="https://www.gardenist.org">Gardenist</Link></H3>
+          <Paragraph>A gardening community website built on Elixir, Phoenix, and Postgresql.</Paragraph>
+          <H3><Link href="https://www.pantryio.com">PantryIO</Link></H3>
+          <Paragraph>
+            Pantry tracking, smart shopping list, and recipe browsing (with microdata parsing web crawler)
+            built with a Next.js/React frontend and a Rails backend.
+          </Paragraph>
+        </div>
+      </div>
 
       <div className="gap-4 items-center">
         <div>
