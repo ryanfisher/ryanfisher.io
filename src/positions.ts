@@ -1,8 +1,14 @@
 export const positions = [
     {
         company: "DNSFilter",
-        position: "Senior Backend Engineer",
-        dates: "March 2022 - Present",
+        position: "Staff Software Engineer",
+        dates: "July 2026 - Present",
+        website: "https://www.dnsfilter.com"
+    },
+    {
+        company: "DNSFilter",
+        position: "Senior Software Engineer",
+        dates: "March 2022 - July 2026",
         website: "https://www.dnsfilter.com"
     },
     {
